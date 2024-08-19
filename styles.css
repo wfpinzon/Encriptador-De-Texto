@@ -1,0 +1,106 @@
+
+
+
+body {
+    margin: 1cm;
+    font-family: Arial, sans-serif;
+    background-color: black
+    ;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+header h1 {
+    
+    color: #baff39;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.container {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+
+.container textarea {
+    width: 45%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: beige;
+    color: black;
+    resize: none;
+    border: 30px;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+   
+.button-group {
+    text-align: center;
+}
+.buttons {
+text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.autor {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-area {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+

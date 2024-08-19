@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Incri.png" alt="Logo">
+        <h1>Encriptador De Texto</h1>
+    </header>
+    
+    <div class="container">
+        <textarea id="inputText" placeholder="Ingresa el texto aquí..."></textarea>
+        <textarea id="outputText" placeholder="El texto encriptado aparecerá aquí..." readonly></textarea>
+    </div>
+    <p class="info">**Solo letras minúsculas y sin acentos.**</p>
+    
+    <div class="buttons">
+        <button id="encryptBtn" onclick="encryptText()">Encriptar</button>
+        <button id="decryptBtn" onclick="decryptText()" disabled>Desencriptar</button>
+        <button id="copyBtn" onclick="copyText()" disabled>Copiar</button>
+        <button id="clearBtn" onclick="clearText()" disabled>Limpiar</button>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+<footer> <p class="Autor">© Copyright 2024 - | Wilson Pinzon Technology | Derechos Reservados | Desarrollado por: Wilson Pinzón</p> </footer>
+</html>
